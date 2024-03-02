@@ -140,6 +140,10 @@ ac_add_options --disable-elf-hack
 ac_add_options --disable-bootstrap
 ac_add_options --with-wasi-sysroot=/usr/share/wasi-sysroot
 
+# Debug & Test
+ac_add_options --disable-debug
+ac_add_options --disable-tests
+
 # Branding
 ac_add_options --enable-official-branding
 ac_add_options --enable-update-channel=release
